@@ -54,17 +54,26 @@ export default function Home() {
           </div> 
         </section>
           <section>
+            
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-          <div className={darkMode ? ' bg-gradient-to-b from-pink-500 to-gray-900 text-center p-10 rounded-lg divide-y-20 shrink ' : " bg-pink-500" }>
+          <div className={darkMode ? ' bg-gradient-to-b from-pink-500 to-gray-900 text-center p-10 rounded-lg divide-y-20 shrink basis-1/3 flex-1 ' : " bg-pink-500" }>
             <span>
               <h3  className=' text-3xl text-white'>Papa Web Scraper</h3>
               <div class="list-disc text-white pt-4">
-  <span>-Developed a web scraper application that extracts emails and links from all Google pages of a given URL <br/>through a graphical User Interface (GUI) using PyQt5 for the front-end </span>
+  <p>-Developed a web scraper application that extracts emails and links from all Google pages of a given URL through a graphical User Interface (GUI) using PyQt5 for the front-end </p>
   <br/>
-  Implemented a seamless integration with a MYSQL database to efficiently store and validate results, effectively preventing any duplicate results
+  <p>-Implemented a seamless integration with a MYSQL database to efficiently store and validate results, effectively preventing any duplicate results</p>
+  <br/>
+  <p>-Developed a user registration and login system, implementing personalized data storage for each user’s results within the database</p>
+  <br/>
+  <p>-Implemented a feature that allows users to convert displayed email addresses and links in the GUI to an Excel file for further analysis</p>
 </div>
 
+
             </span>
+          </div>
+          <div className={darkMode ? ' bg-gradient-to-b from-pink-500 to-gray-900 text-center p-10 rounded-lg divide-y-20 shrink basis-1/3 flex-1 ' : " bg-pink-500" }>
+            <p>hello</p>
           </div>
         </div>
           </section>
