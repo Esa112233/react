@@ -57,7 +57,7 @@ export default function Home() {
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
           <div className={darkMode ? ' bg-gradient-to-b from-pink-500 to-gray-900 text-center p-10 rounded-lg divide-y-20 shrink basis-1/3 flex-1 ' : " bg-gradient-to-b from-teal-500 to-white text-center p-10 rounded-lg divide-y-20 shrink basis-1/3 flex-1" }>
             
-              <h3  className=' text-3xl text-black dark:text-white'><a href='https://github.com/Esa112233/Web_Scraper' target='_blanck'>Papa Web Scraper</a></h3> <p className=' text-white dark:text-black'>PyQt5 • Selenium • MySQL • Multithreading</p>
+              <h3  className=' text-3xl text-black dark:text-white'>Papa Web Scraper</h3> <p className=' text-white dark:text-black'>PyQt5 • Selenium • MySQL • Multithreading</p>
               <div class="list-disc dark:text-white text-black pt-4">
   <p>-Developed a web scraper application that extracts emails and links from all Google pages of a given URL through a graphical User Interface (GUI) using PyQt5 for the front-end </p>
   <br/>
@@ -66,18 +66,22 @@ export default function Home() {
   <p>-Developed a user registration and login system, implementing personalized data storage for each user’s results within the database</p>
   <br/>
   <p>-Implemented a feature that allows users to convert displayed email addresses and links in the GUI to an Excel file for further analysis</p>
+  <br/>
+  <a href='https://github.com/Esa112233/Web_Scraper' target='_blanck'><div className=' rounded-md dark:text-white text-black border-solid border-2 w-30  dark:hover:bg-gray-900 dark:hover:border-pink-500 hover:bg-white hover:border-teal-500'>Link to Repo</div></a>
 </div>
         </div>
 
 
           <div className={darkMode ? ' bg-gradient-to-b from-pink-500 to-gray-900 text-center p-10 rounded-lg divide-y-20 shrink basis-1/3 flex-1 ' : "bg-gradient-to-b from-teal-500 to-white text-center p-10 rounded-lg divide-y-20 shrink basis-1/3 flex-1 " }>
-          <h3  className=' text-3xl text-black dark:text-white'><a href='https://github.com/Esa112233/Django-Chat-App' target='_blanck' >QuickChat</a></h3> <p className=' text-white dark:text-black'>Django • Django Channels • WebSockets • HTML•  Bootstrap • JavaScript</p>
+          <h3  className=' text-3xl text-black dark:text-white'>QuickChat</h3> <p className=' text-white dark:text-black'>Django • Django Channels • WebSockets • HTML•  Bootstrap • JavaScript</p>
           <div class="list-disc text-dark dark:text-white pt-4">
             <p>-Created a real-time chat application powered by Django and WebSockets, allowing users to join dynamic chat rooms and connect with people online</p>
             <br/>
             <p>-Employed DOM manipulation techniques to seamlessly render incoming messages using JavaScript, HTML, and Bootstrap, creating a smooth and engaging user experience</p>
             <br/>
             <p>-Implemented an intuitive auto-scrolling feature using JavaScript, ensuring that new messages are automatically displayed at the bottom of the chat interface </p>
+            <br/> <br/> <br/> <br/> 
+            <a href='https://github.com/Esa112233/Django-Chat-App' target='_blanck'><div className=' rounded-md dark:text-white text-black border-solid border-2 w-30 dark:hover:bg-gray-900 dark:hover:border-pink-500 hover:bg-white hover:border-teal-500'>Link to Repo</div></a>
           </div>
           </div>
 
