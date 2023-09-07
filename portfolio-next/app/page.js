@@ -39,13 +39,15 @@ export default function Home() {
           <div className='mb-90 pt-96'>
              <h3 className="text-3xl py-1 text-black dark:text-white pt-20">About Me</h3>
              <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-              I started my undergraduate degree as an Accounting major but realized it wasn't 
-              the right fit for me so while finding a new career path, I decided to learn python.
-              Although I started exploring software development relatively late, 
-              I have already built a number of applications and websites that I'm really proud of.
-              I'm now a Statistics and Math double major because I would love to work with 
-              <span className='text-pink-500'> Machine Learning</span> and 
-              <span className='text-pink-500'> Artifical Intelligence</span> in the future.   
+             I'm an aspiring software developer and a dedicated student on a journey to
+              master the art of coding. Currently pursuing my Computer Engineering degree, 
+              I'm passionate about exploring the vast world of technology and software development. 
+              From my first "Hello, World!" program to my latest coding projects, I'm constantly 
+              fueled by curiosity and the excitement of creating something new. I enjoy 
+              diving into <span className=' dark:text-pink-500 text-teal-500'>full-stack web development</span> and <span className=' dark:text-pink-500 text-teal-500'>automation</span>, solving real-life 
+              problems one line of code at a time. With each project, I'm growing my 
+              skills and gaining hands-on experience, eager to contribute my unique 
+              perspective to the tech community. 
              </p>
           </div>
           <div>
