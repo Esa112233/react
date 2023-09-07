@@ -57,7 +57,7 @@ export default function Home() {
             
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
           <div className={darkMode ? ' bg-gradient-to-b from-pink-500 to-gray-900 text-center p-10 rounded-lg divide-y-20 shrink basis-1/3 flex-1 ' : " bg-pink-500" }>
-            <span>
+            
               <h3  className=' text-3xl text-white'>Papa Web Scraper</h3>
               <div class="list-disc text-white pt-4">
   <p>-Developed a web scraper application that extracts emails and links from all Google pages of a given URL through a graphical User Interface (GUI) using PyQt5 for the front-end </p>
@@ -68,14 +68,55 @@ export default function Home() {
   <br/>
   <p>-Implemented a feature that allows users to convert displayed email addresses and links in the GUI to an Excel file for further analysis</p>
 </div>
-
-
-            </span>
-          </div>
-          <div className={darkMode ? ' bg-gradient-to-b from-pink-500 to-gray-900 text-center p-10 rounded-lg divide-y-20 shrink basis-1/3 flex-1 ' : " bg-pink-500" }>
-            <p>hello</p>
-          </div>
         </div>
+
+
+          <div className={darkMode ? ' bg-gradient-to-b from-pink-500 to-gray-900 text-center p-10 rounded-lg divide-y-20 shrink basis-1/3 flex-1 ' : " bg-pink-500" }>
+          <h3  className=' text-3xl text-white'>QuickChat</h3>
+          <div class="list-disc text-white pt-4">
+            <p>-Created a real-time chat application powered by Django and WebSockets, allowing users to join dynamic chat rooms and connect with people online</p>
+            <br/>
+            <p>-Employed DOM manipulation techniques to seamlessly render incoming messages using JavaScript, HTML, and Bootstrap, creating a smooth and engaging user experience</p>
+            <br/>
+            <p>-Implemented an intuitive auto-scrolling feature using JavaScript, ensuring that new messages are automatically displayed at the bottom of the chat interface </p>
+          </div>
+          </div>
+
+
+        </div>
+
+        <div>
+            <h3 className='text-3xl py-1 text-black dark:text-white mt-20'>Work Experience</h3>
+          </div>
+          <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+          <div className={darkMode ? ' bg-gradient-to-b from-pink-500 to-gray-900 text-center p-10 rounded-lg divide-y-20 shrink basis-1/3 flex-1 ' : " bg-pink-500" }>
+            
+              <h3  className=' text-3xl text-white'>Papa Sports</h3>
+              <div class="list-disc text-white pt-4">
+  <p>-Contacted over 400 potential customers for boxing apparel and equipment, resulting in increased product inquiries </p>
+  <br/>
+  <p>-Trained a new employee on marketing procedures and YAMM software to send emails</p>
+  <br/>
+  <p>-Generated product catalogs by analyzing websites and available information on consumer interests</p>
+</div>
+        </div>
+
+
+          <div className={darkMode ? ' bg-gradient-to-b from-pink-500 to-gray-900 text-center p-10 rounded-lg divide-y-20 shrink basis-1/3 flex-1 ' : " bg-pink-500" }>
+          <h3  className=' text-3xl text-white'>Sales Associate</h3>
+          <div class="list-disc text-white pt-4">
+            <p>-Advised customers on product selection to meet dietary restrictions and needs</p>
+            <br/>
+            <p>-Collaborated with over 6 team members to serve customers during rush hours</p>
+            <br/>
+            <p>-Updated records for savory foods every four hours in accordance with Alberta Health Services guidelines and assessed product quality to guarantee consumer safety </p>
+          </div>
+          </div>
+
+
+        </div>
+          
+
           </section>
 
 
