@@ -25,7 +25,7 @@ export default function Home() {
           <div className=' text-center p-10'>
             <h2 className={darkMode ? ' text-7xl text-pink-400 font-large' : 'text-7xl text-teal-600 font-large'}>Hello, I'm Esa </h2>
             <h3 className=' text-2xl py-2 dark:text-white'>Computer Engineering Co-op Student</h3>
-            <p className=' text-md py-5 leading-8 text-gray-800 dark:text-white'>Check out my <a className={darkMode ? ' bg-gradient-to-r from-pink-500 to-fuchsia-300 bg-cyan-500 text-white px-4 py-2 rounded-md' : 'bg-gradient-to-r from-cyan-500 to-teal-500 bg-cyan-500 text-white px-4 py-2 rounded-md'} href='https://drive.google.com/file/d/1DNQX9x_XwLVv1gTSQaSnIqeRMrT9arbt/view?usp=sharing' target='_blanck'>Resume!</a></p>
+            <p className=' text-md py-5 leading-8 text-gray-800 dark:text-white'>Check out my <a className={darkMode ? ' bg-gradient-to-r from-pink-500 to-fuchsia-300 bg-cyan-500 text-white px-4 py-2 rounded-md' : 'bg-gradient-to-r from-cyan-500 to-teal-500 bg-cyan-500 text-white px-4 py-2 rounded-md'} href='https://drive.google.com/file/d/1lw65YPdLO4chEZoIG1hw8m9aQ9SBEgPI/view?usp=sharing' target='_blanck'>Resume!</a></p>
           </div>
           <div className=' text-5xl flex justify-center gap-16 py-3 dark:text-pink-400 text-teal-600'>
             <a target='_blanck' href='https://www.linkedin.com/in/esa-abuzar/'>
